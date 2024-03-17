@@ -3,18 +3,22 @@ No usar directamente en AngularCLI (a menos que estén creadas las variables de 
 
 ## Pasos:
 1. Clonar el .env.template y renombrarlo a .env
-2. Llenar las variables de entorno acorde
-3. Crear Angular Envs (opcional)
+2. Llenar las variables de entorno 
+3. Instalar los modulos de node
+```
+npm install
+```
+4. Crear Angular Envs (opcional)
 ```
 npm run envs
 ```
 
-4. Para development ejecutar:
+5. Para development ejecutar:
 ```
 npm run start
 ```
 
-5. Para producción ejecutar:
+6. Para producción ejecutar:
 ```
 npm run build
 ```
